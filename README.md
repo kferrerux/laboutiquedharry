@@ -14,7 +14,7 @@
 
 ## Caractéristiques 🕵️
 
-Manipulation de JavaScript/POSTMAN dans le but de faire appel à des données (GET) provenant d'une API libre, le contenu n'est pas définitif, la page se verra mise à jour grâce aux acquis en formation
+Le projet (en binôme) consiste à créer la maquette d'un site fictif via FIGMA puis de retranscrire cela par le code (HTML/CSS)
 
 ## Technologies utilisées 👨‍💻
 
