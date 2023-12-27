@@ -1,0 +1,264 @@
+/* La boutique d'Harry - medias queries - @2024 */
+
+/* Écrans normaux - entre 1224px et 1500px */
+@media only screen and (min-width: 1225px) and (max-width: 3840px) { 
+
+    #logomobile {
+        display: none;
+    }
+
+    } 
+        
+/* Écrans moyens - entre 1028px et 1248px */
+@media only screen and (min-width: 860px) and (max-width: 1224px) {
+    
+    #logomobile {
+        display: none;
+    }
+
+    .about-img {
+        height: 400px;
+        background-image: url("assets/imgs/about.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .about-txt p {
+        padding: 0 10%;
+    }
+
+    .about-txt h2 {
+        text-align: center;
+        font-weight: lighter;
+        padding: 0 10%; 
+        margin-bottom: 3%;
+    }
+
+    #contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .form {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .map {
+        margin-bottom: 15px;
+    }
+    
+    }
+
+ /* Écrans moyens - entre 0px et 1000px */
+ @media only screen and (min-width: 0px) and (max-width: 1059px)  {
+
+    #logomobile {
+        display: none;
+    }
+
+    .about-txt h2 {
+        text-align: center;
+        font-weight: lighter;
+        padding: 0 10%; 
+        margin-bottom: 3%;
+    }
+
+    .f-quicklinks {
+        display: none;
+    }
+
+    #contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .form {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .map {
+        margin-bottom: 15px;
+    }
+
+ }   
+
+  /* Écrans moyens - entre 0px et 980px */
+  @media only screen and (min-width: 0px) and (max-width: 980px)  {
+
+    #logomobile {
+        display: none;
+    }
+
+    .title {
+        color: #FFFFFF;
+        font-weight: lighter;
+        font-size: 2.5rem;
+    }
+
+    .about-txt h2 {
+        text-align: center;
+        font-weight: lighter;
+        padding: 0 10%; 
+        margin-bottom: 3%;
+    }
+
+    .f-quicklinks {
+        display: none;
+    }
+
+    #contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .form {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .map {
+        margin-bottom: 15px;
+    }
+
+ }   
+    
+/* Petits écrans ou mobile - en dessous 860px */
+@media only screen and (min-width: 0px) and (max-width: 860px)  {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        min-height: 100vh;
+        max-width: 100%;
+        overflow-x: hidden;
+        background-color: #F5F2EF;    
+    }
+
+    .header {
+        border-bottom: 1px solid #DCCFCA;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-bottom: 0px;
+    }
+
+    .main {
+        background-image: url("assets/imgs/headerbg.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        margin: 0;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #logomobile {
+        display: block;
+        margin-left: 30px;
+        width: 50px;
+    }
+
+    .about {
+        margin: 0;
+        color: #313030;
+        background-color: #FCC16D;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .title {
+        color: #FFFFFF;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .about-txt {
+        height: 300px;
+        text-align: center;
+    }
+
+    .about-txt h2 {
+        font-weight: lighter;
+        padding-top: 10%;
+        margin-bottom: 3%;
+    }
+    
+    .about-txt p {
+        padding-bottom: 5%;
+    }
+
+    .f-quicklinks {
+        display: none;
+    }
+
+     .f-about {
+        display: none;
+    }
+
+    .f-infos {
+        width: 50%;
+        font-size: 0.8rem;
+    }
+
+    #contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .form {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .map {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .form h4 {
+        font-size: 0.6rem;
+        color: #313030;
+        font-weight: lighter;
+        margin-bottom: 3%;
+    }
+
+}
