@@ -9,8 +9,8 @@
 - [Contribuer](#contribuer)
 
 ## Aperçu 👀
-![Capture d’écran du 2023-12-21 14-22-26](https://github.com/kferrerux/laboutiquedharry/assets/77007630/eede375e-3932-4d23-bb78-510ccf72e729)
-*<p align=center>Prototyping avec FIGMA</p>*
+![harry](https://github.com/kferrerux/laboutiquedharry/assets/77007630/b5266b00-0d13-4e99-8bf4-36c748d5bffb)
+*<p align=center>La boutique d'Harry</p>*
 
 ## Caractéristiques 🕵️
 
