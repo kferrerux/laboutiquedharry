@@ -12,6 +12,13 @@
 <body>
 
     <header class="header">
+        <!-- éléments de la navbar mobile / responsive -->
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+          <i class="fa-solid fa-bars" id="iconMenu"></i>
+          <i class="fa-solid fa-xmark" id="iconX"></i>
+        </label>
+        <!-- fin des éléments de la navbar mobile / responsive -->
         <nav class="main-nav">
             <div class="nav">
                 <a href="index.html"><img id="logo" src="assets/imgs/logo.png" alt="Logo"></a>
@@ -25,6 +32,7 @@
         </nav>
     </header>
 
+    <!-- ci-dessous le container principal utilisant la propriété "flexwrap", les produits sont placés dans des div -->
     <section id="products-container">
         <div class="potion">
             <img src="assets/imgs/potions/01.png" alt="Potion">
@@ -75,7 +83,9 @@
             <button class="p-btn">+ d'infos</button>
         </div>
     </section>
+    <!-- fin du container principal et des produits -->
     
+    <!-- le footer avec liens vers les différents réseaux (utilisation de fontawesome) -->
     <footer class="footer">
         <div class="f-about">
             <h4>Résumé</h4>
@@ -100,13 +110,14 @@
         <div class="f-socials">
             <h4>Nous suivre</h4>
             <ul class="socialsflex">
-                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <li><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
             </ul>
         </div>
     </footer>
+    <!-- fin du footer -->
 
 </body>
 </html>

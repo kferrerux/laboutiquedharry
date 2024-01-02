@@ -12,6 +12,13 @@
 <body>
 
     <header class="header">
+        <!-- éléments de la navbar mobile / responsive -->
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+          <i class="fa-solid fa-bars" id="iconMenu"></i>
+          <i class="fa-solid fa-xmark" id="iconX"></i>
+        </label>
+        <!-- fin des éléments de la navbar mobile / responsive -->
         <nav class="main-nav">
             <div class="nav">
                 <a href="index.html"><img id="logo" src="assets/imgs/logo.png" alt="Logo"></a>
@@ -25,25 +32,27 @@
         </nav>
     </header>
 
+    <!-- la section contient deux div, une pour la map à gauche et un formulaire à droite, toujours en flex -->
     <section id="contact-container">
         <img class="map" src="assets/imgs/preaulardmap.jpg" alt="map">
         <div class="form">
             <h2>Nous contacter</h2>
             <h4>Nous répondons à toutes vos questions.</h4>
             <div class="form-line"></div>
-            <form action="">
+            <form action="form.php">
                 <label for="username">Nom/Prénom(s)</label>
-                <input type="text" placeholder="Nom/Prénom(s)">
+                <input id="username" type="text" placeholder="Nom/Prénom(s)">
                 <label for="email">Votre mail</label>
-                <input type="email" placeholder="Votre mail ici">
+                <input id="email" type="email" placeholder="Votre mail ici">
                 <label for="message">Entrez votre message</label>
                 <textarea name="message" id="message" placeholder="Laissez-nous vos coordonnées"></textarea>
                 <button type="submit">Envoyer</button>
             </form>
         </div>
-
     </section>
+    <!-- fin de la section -->
     
+    <!-- le footer avec liens vers les différents réseaux (utilisation de fontawesome) -->
     <footer class="footer">
         <div class="f-about">
             <h4>Résumé</h4>
@@ -68,13 +77,14 @@
         <div class="f-socials">
             <h4>Nous suivre</h4>
             <ul class="socialsflex">
-                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <li><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
             </ul>
         </div>
     </footer>
+    <!-- fin du footer -->
 
 </body>
 </html>
