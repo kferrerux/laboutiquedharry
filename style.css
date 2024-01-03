@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
 /* barre de navigation - navigation bar */
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
     border-bottom: 1px solid #DCCFCA;
     padding-top: 1%;
     padding-bottom: 1%;
